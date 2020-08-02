@@ -7,7 +7,7 @@
             <img
               id="henrique"
               class="is-rounded"
-              src="../assets/imgs/henrique-gomide.jpg"
+              src="~assets/imgs/henrique-gomide.jpg"
             >
           </figure>
           <h1 class="title text-centered">
@@ -45,7 +45,7 @@
       <div class="container">
         <br>
         <h1 class="title">
-          <router-link to="/blog">
+          <router-link to="/tutorials">
             Blog & Tutorials
           </router-link>
         </h1>
@@ -68,8 +68,8 @@
             </li>
           </div>
           <li class="subtitle papers">
-            <router-link to="/blog">
-              <b>Go to Blog...</b>
+            <router-link to="/tutorials">
+              <b>Go to Blog and Tutorials...</b>
             </router-link>
           </li>
         </ol>

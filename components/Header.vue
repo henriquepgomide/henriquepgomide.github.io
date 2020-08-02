@@ -13,7 +13,7 @@
         <b-navbar-item tag="router-link" :to="{ path: '/resume' }">
           Resume
         </b-navbar-item>
-        <b-navbar-item tag="router-link" :to="{ path: '/blog' }">
+        <b-navbar-item tag="router-link" :to="{ path: '/tutorials' }">
           Blog & Tutorials
         </b-navbar-item>
         <b-navbar-item tag="router-link" :to="{ path: '/research' }">
