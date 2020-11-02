@@ -163,15 +163,14 @@
       </h3>
       <br>
       <h3 class="is-size-5 has-text-weight-medium">
-        IBM AI Engineering Professional Certificate | 2020 Coursera - IBM
+        <a href="https://www.credential.net/02a436c2-d533-4cb8-977e-32832bdc7617#gs.kbwncs">TensorFlow Developer Certificate</a>
+      </h3>
+      <h3 class="is-size-5 has-text-weight-medium">
+        <a href="https://www.youracclaim.com/earner/earned/badge/11134946-68de-433c-8229-d401c6ef1c09">IBM AI Engineering Professional Certificate | 2020 Coursera - IBM</a>
       </h3>
       <h3 class="is-size-5 has-text-weight-medium">
         AI for Medicine Specialization (Deeplearning.ai)
       </h3>
-      <h3 class="is-size-5 has-text-weight-medium">
-        Computing for Data Science (Coursera)
-      </h3>
-      <br>
       <br><br>
       <!-- End Topic -->
     </div>

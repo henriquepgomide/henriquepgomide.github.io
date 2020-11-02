@@ -6,7 +6,6 @@
           <figure class="image">
             <img
               id="henrique"
-              class="is-rounded"
               src="~assets/imgs/henrique-gomide.jpg"
             >
           </figure>
@@ -14,9 +13,8 @@
             Henrique Gomide, Ph.D.
           </h1>
           <h2 class="subtitle">
-            Assistant Professor and Data Scientist
+            Data Science | Machine Learning | Mobile Health
           </h2>
-
           <div id="social-network" class="columns">
             <div class="column is-half is-offset-one-quarter">
               <a
@@ -89,7 +87,7 @@
         </p>
         <ol>
           <div
-            v-for="item in sciencepapers"
+            v-for="item in sciencepapers.slice(1,5)"
             :key="item.title"
           >
             <li class="subtitle papers">
@@ -109,17 +107,13 @@
 </template>
 <script>
 import { butter } from '~/plugins/buttercms'
+import sciencepapers from '~/content/publications.json'
 
 export default {
   name: 'BlogHome',
-  async asyncData ({ $content }) {
-    const sciencepapers = await $content('publications').fetch()
-    return {
-      sciencepapers
-    }
-  },
   data () {
     return {
+      sciencepapers,
       page_title: 'Blog',
       posts: []
     }

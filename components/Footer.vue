@@ -5,7 +5,7 @@
         <div id="hpg" class="column">
           <div class="columns">
             <div class="column is-one-third">
-              <figure class="image is-64x64">
+              <figure class="image is-128x128">
                 <img
                   class="is-rounded"
                   src="~assets/imgs/henrique-gomide.jpg"
@@ -17,28 +17,13 @@
                 Henrique Gomide
               </h2>
               <h2 class="subtitle">
-                Assistant professor @UFV
+                TensorFlow Developer
               </h2>
-
               <div id="social-network" class="columns">
                 <div class="column">
-                  <a
-                    href="https://github.com/henriquepgomide"
-                  ><img
-                    class="is-rounded logo"
-                    src="~assets/icons/github.svg"
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/in/hpgomide/"
-                  >
-                    <img
-                      class="is-rounded logo"
-                      src="~assets/icons/linkedin.svg"
-                    ></a>
-                  <a
-                    href="https://www.youtube.com/c/HenriqueGomide/"
-                  ><img class="is-rounded logo" src="~assets/icons/youtube.svg">
-                  </a>
+                  <figure class="image is-32x32">
+                    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/24952440" alt="TensorFlow Developer Certificate">
+                  </figure>
                 </div>
               </div>
             </div>
@@ -46,8 +31,8 @@
         </div>
 
         <div class="column" />
-        <div class="column">
-          <figure class="image">
+        <div class="column is-one-fourth">
+          <figure class="image is-256x256">
             <a
               href="https://buttercms.com"
             ><img src="~assets/imgs/butter-y.png">
